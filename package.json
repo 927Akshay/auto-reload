@@ -1,0 +1,14 @@
+{
+  "name": "auto-reload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "S.Akshay",
+  "license": "No Liscence needed",
+  "dependencies": {
+    "websockets": "^0.2.0"
+  }
+}
