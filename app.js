@@ -4,6 +4,9 @@ const websockets = require('websockets');
 const path = require('path');
 var ar = process.argv;
 console.log(ar);
+
+const reloadScript = "<script>const socket = new WebSocket('ws://localhost:80'+document.location.pathname);socket.addEventListener('open', function (event) {}); socket.addEventListener('message', function (event) {if  (event.data==='Reload'){ location.reload(); };});</script> </html>"
+
 http.createServer(function(request, response) {
 
     var filePath = '.' + request.url;
@@ -47,8 +50,15 @@ http.createServer(function(request, response) {
             };
         };
         if(content){
-            response.writeHead(200, { 'Content-Type': contentType });
-            response.end(content, 'utf-8');
+           if (contentType==='text/html'){
+               content = String(content);
+               content1 = content.replace("</html>" , reloadScript);
+               response.writeHead(200, { 'Content-Type': contentType });
+               response.end(content1, 'utf-8');
+            }else{
+                response.writeHead(200, { 'Content-Type': contentType });
+                response.end(content, 'utf-8');
+            }  
         };
     });
 
