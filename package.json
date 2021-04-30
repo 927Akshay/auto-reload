@@ -1,5 +1,5 @@
 {
-  "name": "web-server",
+  "name": "@927akshay/web-server",
   "version": "1.0.0",
   "description": "A easy Reload tool to test your websites ",
   "main": "./lib/index.js",

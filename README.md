@@ -5,7 +5,7 @@
 Use the [npm](https://npmjs.com) to install web-server.
 
 ```bash
-npm i web-server -g
+npm i @927akshay/web-server -g
 ```
 
 ## Overview
