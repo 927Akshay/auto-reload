@@ -1,4 +1,4 @@
-# auto-reload
+# auto_reload
 
 ## Installation
 

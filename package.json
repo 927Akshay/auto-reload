@@ -1,22 +1,19 @@
 {
-  "name": "auto-reload",
+  "name": "auto_reload",
   "version": "1.0.0",
   "description": "A easy Reload tool to test your websites ",
   "main": "./lib/index.js",
   "scripts": {
     "test": "auto-reload"
   },
-  "author": {
-    "name": "S.Akshay",
-    "url": "https://github.com/927Akshay"
-  },
+  "author": "S.Akshay (https://github.com/927Akshay)",
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
     "websockets": "^0.2.0"
   },
   "bin": {
-    "auto-reload": "./bin/main.js"
+    "auto-reload": "bin/main.js"
   },
   "directories": {
     "lib": "lib"
@@ -28,5 +25,13 @@
     "frontend",
     "html",
     "real-time-reload"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/927Akshay/auto_reload.git"
+  },
+  "bugs": {
+    "url": "https://github.com/927Akshay/auto_reload/issues"
+  },
+  "homepage": "https://github.com/927Akshay/auto_reload#readme"
 }
