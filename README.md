@@ -1,11 +1,11 @@
-# auto_reload
+# web-server
 
 ## Installation
 
-Use the [npm](https://npmjs.com) to install auto-reload.
+Use the [npm](https://npmjs.com) to install web-server.
 
 ```bash
-npm i auto-reload -g
+npm i web-server -g
 ```
 
 ## Overview
@@ -13,18 +13,18 @@ npm i auto-reload -g
 This is a simple and light weight npm package that is of great help to developers. It automatically reloads the webpage on watching any change in the working directory. It also watches for change in the subdirectories also.
 
 ## Usage
-Navigate to your working directory and type `auto-reload`
+Navigate to your working directory and type `web-server`
 ```bash
-> auto-reload (# On windows)
-$ auto-reload (# On Linux & macOS)
+> web-server (# On windows)
+$ web-server (# On Linux & macOS)
 Type file name; Default:index.html
 Sever started on port 8080
 ```
-By default it serves the `index.html` file on the root route `localhost:8080/`. If you want to serve another file on home route type the file name (like : `main.html`) on the promt after typing `auto-reload` and hit enter
+By default it serves the `index.html` file on the root route `localhost:8080/`. If you want to serve another file on home route type the file name (like : `main.html`) on the promt after typing `web-server` and hit enter
 
 ``` bash
-> auto-reload (# On windows) [hit enter]
-$ auto-reload (# On Linux & macOS) [hit enter]
+> web-server (# On windows) [hit enter]
+$ web-server (# On Linux & macOS) [hit enter]
 Type file name; Default:index.html
 main.html
 Sever started on port 8080

@@ -1,10 +1,10 @@
 {
-  "name": "auto_reload",
+  "name": "web-server",
   "version": "1.0.0",
   "description": "A easy Reload tool to test your websites ",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "auto-reload"
+    "test": "web-server"
   },
   "author": "S.Akshay (https://github.com/927Akshay)",
   "license": "ISC",
@@ -13,7 +13,7 @@
     "websockets": "^0.2.0"
   },
   "bin": {
-    "auto-reload": "bin/main.js"
+    "web-server": "bin/main.js"
   },
   "directories": {
     "lib": "lib"
@@ -24,14 +24,15 @@
     "auto-reload",
     "frontend",
     "html",
-    "real-time-reload"
+    "real-time-reload",
+    "web-server"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/927Akshay/auto_reload.git"
+    "url": "git+https://github.com/927Akshay/web-server.git"
   },
   "bugs": {
-    "url": "https://github.com/927Akshay/auto_reload/issues"
+    "url": "https://github.com/927Akshay/web-server/issues"
   },
-  "homepage": "https://github.com/927Akshay/auto_reload#readme"
+  "homepage": "https://github.com/927Akshay/web-server#readme"
 }
