@@ -33,8 +33,8 @@ Sever started on port 8080
 It logs an error if it cannot find the requested file
 
 ## Updates
-I will release updates as often as possible. Currently it supports `http` protocol only.
-> `https` will be supported soon
+I will release updates as often as possible. Currently it supports `http` and `https` protocol .
+> If you have any suggestions please do leave them on the [github page](https://github.com/927Akshay/web-server/issues)
 
 ## License
 ISC
