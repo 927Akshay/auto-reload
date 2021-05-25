@@ -1,38 +1,38 @@
 {
-  "name": "@927akshay/web-server",
-  "version": "1.1.0",
-  "description": "A easy Reload tool to test your websites ",
-  "main": "./lib/index.js",
-  "scripts": {
-    "test": "web-server"
-  },
-  "author": "S.Akshay (https://github.com/927Akshay)",
-  "license": "ISC",
-  "dependencies": {
-    "colors": "^1.4.0",
-    "websockets": "^0.2.0"
-  },
-  "bin": {
-    "web-server": "bin/main.js"
-  },
-  "directories": {
-    "lib": "lib"
-  },
-  "devDependencies": {},
-  "keywords": [
-    "reload",
-    "auto-reload",
-    "frontend",
-    "html",
-    "real-time-reload",
-    "web-server"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/927Akshay/web-server.git"
-  },
-  "bugs": {
-    "url": "https://github.com/927Akshay/web-server/issues"
-  },
-  "homepage": "https://github.com/927Akshay/web-server#readme"
+    "name": "@927akshay/web-server",
+    "version": "2.0.0",
+    "description": "A easy Reload tool to test your websites ",
+    "main": "./lib/index.js",
+    "scripts": {
+        "test": "web-server"
+    },
+    "author": "S.Akshay (https://github.com/927Akshay)",
+    "license": "ISC",
+    "dependencies": {
+        "colors": "^1.4.0",
+        "websockets": "^0.2.0"
+    },
+    "bin": {
+        "web-server": "bin/main.js"
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "devDependencies": {},
+    "keywords": [
+        "reload",
+        "auto-reload",
+        "frontend",
+        "html",
+        "real-time-reload",
+        "web-server"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/927Akshay/web-server.git"
+    },
+    "bugs": {
+        "url": "https://github.com/927Akshay/web-server/issues"
+    },
+    "homepage": "https://github.com/927Akshay/web-server#readme"
 }

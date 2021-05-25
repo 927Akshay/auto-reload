@@ -1,0 +1,6 @@
+{
+    "protocol": "http",
+    "port": 3000,
+    "s-port": 3001,
+    "/": "/index.html"
+}
